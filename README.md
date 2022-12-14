@@ -1,23 +1,32 @@
-# TOURSIT GUIDE APP
-an application that helps touriss a wholesome travel experience
-#### By **{List of contributors}**
+# TRAVEL WITH EASE
+#### An application that gives tourists a wholesome travel experience by providing action attraction sites in Kenya
+
+*Author- Aisha Mohamed*
+
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+With an influx in international tourist activities, tourists may find it hard to identify and tour good action attractions in Kenya. This app provides an easier urjve that enable tourists to access vital information about such action attractions in preparation for their tour, thus gving them an easier and whlesome touring experience.
+
 ## Setup/Installation Requirements
-* Clone the repo {git clone https://github.com/jonnygovish/cookie-recipe.git}
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
-## Live link
-## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
-## Technologies Used
-{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
+This app is written using javascript, to run it, ensure to have a properly set node environment. Additionally, you will need the json-server npm package. Install it by `npm install -g json-server`. After this, proceed to:
+1. [Clone the repo](https://github.com/aisha-jufe/guide-app.git)
+1. Start the json server locally by using `json-server --watch db.json`
+1. Start the live server extension to run the app on a local port
+1. Check the browser to interact with the app
+* Alternatively, access the [deployed app]()
+
+### Known Bugs
+{* No known bugs, should spot any reach out to me on the developer contact provided
+
+### Technologies Used
+* HTML
+* CSS3
+* Vanilla JavaScript
+
+
 ## Support and contact details
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+[Github]()
+[E-mail]()
+
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-This is under the [MIT](LICENSE) license
-Copyright (c) {year} **{List of contributors or company name}**
+This is under the [MIT]() license
+Copyright 2022 **Aisha Mohamed**
