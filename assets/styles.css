@@ -5,6 +5,7 @@
 }
 body{
   background-color: azure;
+  overflow: hidden;
 }
   
 .heading {
@@ -58,7 +59,8 @@ body{
 
 
 #image{
-  width: 100%
+  width: 100%;
+  height: fit-content;
 }
 
 #park-info {
