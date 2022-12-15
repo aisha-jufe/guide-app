@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tour guide App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="heading">
+      <div class="item">
+        <h2 class="ui header">
+          <div class="content">SAFARI NJEMA</div>
+          <div class="sub header" id="subtitle">TRAVEL WITH EASE</div>
+        </h2>
+      </div>
+    </div>
+
+    <div class="ui centered grid">
+      <div class="four wide column">
+        <div class="list-container">
+          <!-- side menu -->
+          <ul class="ui divided list" id="parks">
+            <li class="park item">[All park names will go here]</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- park poster -->
+      <div class="four wide column">
+        <img
+          id="image"
+          src="assets/placeholderImage.png"
+          alt="[PARK PIC]"
+        />
+      </div>
+
+      <!-- showing info -->
+      <div class="four wide column">
+        <div class="ui cards" id="showing">
+          <div class="card">
+            <div id="name" class="park">[PARK NAME] <span id="film-idv" ></span></div>
+            <div  id="location" class="meta"><span>[PARK LOCATION]</span></div>
+            <div class="content">
+              <div class="description">
+                <div id="park-info">[DETAILS ON PARK GO HERE]</div>
+                <span id="entry-fee" class="ui label">[ENTRY FEE]</span>
+                <p id="features">[FEATURES]</p> 
+                <p id="amenities">[AMENITIES]</p>
+
+              </div>
+            </div>
+            <div class="extra content">
+              <button id="buy-ticket" class="buttons">
+                Book park entrance
+              </button>
+              <button id="visited" class="buttons">
+                Already visited!
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
