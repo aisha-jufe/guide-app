@@ -58,7 +58,8 @@ body{
 }
 
 
-#image{
+#image, #image2{
+  margin-bottom: 5px;
   width: 100%;
   height: fit-content;
 }

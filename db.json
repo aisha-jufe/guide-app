@@ -5,6 +5,7 @@
       "name": "Maasai-Mara",
       "location": "Narok, Kenya",
       "image": "https://cdn-images.go2africa.com/wp-content/uploads/2020/03/23131504/angama_mara_view_go2africa.jpg",
+      "image2": "https://cdn-images.go2africa.com/wp-content/uploads/2020/03/23131504/angama_mara_view_go2africa.jpg",
       "entryFee": "$80",
       "features": "Lions, Wildebeest Migration, Mara Falls",
       "amenities": "Mara Lodge, Mara Airstrip",
@@ -15,6 +16,7 @@
       "name": "kran destination",
       "location": "Taita, Kenya",
       "image": "https://www.kranhotels.com/wp-content/uploads/2018/04/DSC_1001-HDR-1500x1000.jpg",
+      "image2":"",
       "entryFee": "$90",
       "features": "Good vegeattation, climbers",
       "amenities": "Voi memorial park",
@@ -29,6 +31,95 @@
       "features": "Flamingo viewing, Boat riding",
       "amenities": "Nakuru Airstrip, Lakeside Lodge",
       "description": "Nestled along Kenya Great Rift Valley, Lake Nakuru National Park offers a diverse landscape of rocky caves, brushy grasslands, and, of course, Lake Nakuru. The national park is populated with an abundance of wildlife, including more than 400 different bird specie"
+    },
+    {
+      "id": 4,
+      "name": "Leopard Camp",
+      "location": "malindi,kenya",
+      "image": "https://content.r9cdn.net/himg/a0/4b/49/expediav2-2767344-53e12e-830564.jpg",
+      "image2":"https://media-cdn.tripadvisor.com/media/photo-m/1280/19/70/8f/17/basecamp-k.jpg",
+      "entryFee": "$100",
+      "features": "swimming, Boat riding",
+      "amenities": "free parking,Restraunt",
+      "description": "Leopard Point Luxury Beach Resort & Spa is by the ocean, within a 15-minute drive of Marine Park and Malindi Beach"
+    },
+    {
+      "id": 5,
+      "name": "Tsavo Park",
+      "location": "coast,kenya",
+      "image": "https://cdn.thecrazytourist.com/wp-content/uploads/2016/09/Amboseli-National-Park.jpg",
+      "image2":"https://media.istockphoto.com/id/1293721982/photo/giraffes-in-tsavo-east-national-park-tsavo-west-and-amboseli-in-kenya.jpg?s=612x612&w=0&k=20&c=LqLaS3_orFaXA-xUPZYdDCqXfdzeXwpe23IDszCEvXo=",
+      "entryFee": "$150",
+      "features": "wildlife,greenary",
+      "amenities": "large herds of elephants and captivating landscapes",
+      "description": "Tsavo National Park is one of Kenya’s oldest and largest national parks, and is the country’s largest protected area"
+    },
+    {
+      "id": 6,
+      "name": "Lamu Island",
+      "location": "lamu,kenya",
+      "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/65/1f.jpg",
+      "image2":"https://www.jewelsafaris.com/wp-content/uploads/2019/11/Lamu-Archipelago-Kenya-1024x682.jpg",
+      "entryFee": "$150",
+      "features": " Donkey Sanctuary,swahili culture",
+      "amenities": "Lamu Fort,Lamu museum",
+      "description": "The small island of Lamu, northeast of Mombasa, oozes old-world charm. A UNESCO World Heritage Site, Lamu Old Town is Kenya's oldest continually inhabited settlement, with origins dating back to the 12th century"
+    },
+    {
+      "id": 7,
+      "name": "Lake Naivasha",
+      "location": "Rift Valley,kenya",
+      "image": "https://www.planetware.com/photos-large/KEN/kenya-lake-naivasha.jpg",
+      "image2":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.getyourguide.com%2Fnairobi-l267%2Ffrom-nairobi-lakes-nakuru-naivasha-national-park-day-tour-t294245%2F&psig=AOvVaw00sBjAUS6Mk2fHizcJUy2_&ust=1671190154144000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNj_2c3C-_sCFQAAAAAdAAAAABAE",
+      "entryFee": "$200",
+      "features": "swimming, Boat riding",
+      "amenities": "Crater Lake Game Sanctuary",
+      "description": "A haven for birders, Lake Naivasha lies at the highest point of the Great Rift Valley."
+    },
+
+    {
+      "id": 8,
+      "name": "Nairobi National Park",
+      "location": "Nairobi,kenya",
+      "image": "https://www.planetware.com/wpimages/2020/11/kenya-top-attractions-nairobi-national-park.jpg",
+      "image2":"https://www.africanmeccasafaris.com/wp-content/uploads/nairobitentedcampsmall1.jpg",
+      "entryFee": "$300",
+      "features": "rhino sanctuary,Nairobi Safari Walk",
+      "amenities": "birds,fresh air",
+      "description": "Visiting this wildlife-rich park is one of the top things to do if you're staying in Nairobi, and it makes a rewarding day trip "
+    },
+    {
+      "id": 9,
+      "name": "Mount Kenya National Park",
+      "location": "Rift Valley,kenya",
+      "image": "https://www.planetware.com/photos-large/KEN/kenya-mount-kenya-national-park.jpg",
+      "image2":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUzyp2yDwyKTp_WQS6jyYPQ9iIsLC-0rJeHfLj6YvDpA&s",
+      "entryFee": "$500",
+      "features": "comprised of three glacier-cloaked peaks",
+      "amenities": " glaciers, lakes, and mineral springs.",
+      "description": "Mount Kenya National Park is a UNESCO World Heritage Site that provides the rare spectacle of equatorial snow "
+    },
+    {
+      "id": 10,
+      "name": " Hell's Gate National Park",
+      "location": "kenya",
+      "image": "https://www.planetware.com/photos-large/KEN/kenya-hells-gate-national-park.jpg",
+      "image2":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbmlWw_T1cyxS0SNhw8JOEfZc8ip_x5PiDsKnl7gBx3A&s",
+      "entryFee": "$300",
+      "features": " hot springs and natural geysers",
+      "amenities": "ObsidianCaves",
+      "description": "Hell's Gate offers excellent climbing and hiking opportunities, with two extinct volcanoes "
+    },
+    {
+      "id": 11,
+      "name": " Ol Pejeta Conservancy",
+      "location": "Rift Valley,kenya",
+      "image": "https://www.planetware.com/wpimages/2020/11/kenya-top-attractions-ol-pejeta-conservancy.jpg",
+      "image2":"https://cloudfront.safaribookings.com/lib/kenya/1000x625/Ol_Pejeta_Conservancy_011.jpg",
+      "entryFee": "$300",
+      "features": "chimpanzee sanctuary",
+      "amenities": "colonial ranch house",
+      "description": " Ol Pejeta Conservancy is a prime place for close-up wildlife encounters."
     }
-  ]
+  ]    
 }

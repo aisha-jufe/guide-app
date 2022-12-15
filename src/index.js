@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", getParks())
 // Query and assign to variables found nodes
 const parkList = document.querySelector(".list-container");
 const parkImage = document.querySelector("#image");
+const parkImage2 = document.querySelector("#image2");
 const parkName = document.querySelector("#name");
 const parkLocation = document.querySelector("#location");
 const parkdescription = document.querySelector("#park-info");
@@ -62,6 +63,7 @@ function showPark (park) {
   parkFeatures.innerHTML = `<e>Main Features</e> <br> ${park.features}`;
   parkAmenities.innerHTML = `Nearby Amenities: <br> ${park.amenities}`
   image.src = park.image;
+  parkImage2.src = park.image2
 
   
   // Event listener if one has visited park, to delete it from their view
