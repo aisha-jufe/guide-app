@@ -22,7 +22,7 @@ parkList.innerText = '';
 
 // fetch parks and displays the first park on DOMContentLoaded
 function getParks () {
-  fetch('http://localhost:3000/parks/')
+  fetch('https://test-backend-production-30ff.up.railway.app/parks')
     .then(r => r.json())
     .then(renderParks);
   starter();
@@ -31,7 +31,7 @@ function getParks () {
 // Fetch the first park to display when page loads
 function starter () {
   
-  fetch('http://localhost:3000/parks/1')
+  fetch('https://test-backend-production-30ff.up.railway.app/parks/1')
     .then(r => r.json())
     .then(showPark);
 }
