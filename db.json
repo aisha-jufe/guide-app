@@ -1,0 +1,31 @@
+{
+  "parks": [
+    {
+      "name": "Maasai-Mara",
+      "location": "Narok, Kenya",
+      "image": "https://cdn-images.go2africa.com/wp-content/uploads/2020/03/23131504/angama_mara_view_go2africa.jpg",
+      "entryFee": "$80",
+      "features": "Lions, Wildebeest Migration, Mara Falls",
+      "amenities": "Mara Lodge, Mara Airstrip",
+      "description": "The incomparable Masai Mara is one of the world's greatest wildlife destinations"
+    },
+    {
+      "name": "kran destination",
+      "location": "Taita, Kenya",
+      "image": "https://www.kranhotels.com/wp-content/uploads/2018/04/DSC_1001-HDR-1500x1000.jpg",
+      "entryFee": "$90",
+      "features": "Good vegeattation, climbers",
+      "amenities": "Voi memorial park",
+      "description": "The ideal relaxation haven. Our lounge is a destination hot-spot for both international guests and locals alike. Exuding classic charm and polished refinement to ensure guests can relax in total comfort. It is an intimate setting brimming with unique features, stylish furnishing and original artwork"
+    },
+    {
+      "name": "Lake Nakuru Lodge",
+      "location": "Nakuru, Kenya",
+      "image": "https://cdn.getyourguide.com/img/location/5a0861faa0da9.jpeg/99.jpg",
+      "entryFee": "$100",
+      "features": "Flamingo viewing, Boat riding",
+      "amenities": "Nakuru Airstrip, Lakeside Lodge",
+      "description": "Nestled along Kenya Great Rift Valley, Lake Nakuru National Park offers a diverse landscape of rocky caves, brushy grasslands, and, of course, Lake Nakuru. The national park is populated with an abundance of wildlife, including more than 400 different bird specie"
+    }
+  ]
+}
