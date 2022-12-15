@@ -26,7 +26,7 @@ This app is written using javascript, to run it, ensure to have a properly set n
 1. Start the json server locally by using `json-server --watch db.json`
 1. Start the live server extension to run the app on a local port
 1. Check the browser to interact with the app
-* Alternatively, access the [deployed app]()
+* Alternatively, access the [deployed app](https://aisha-jufe.github.io/guide-app/)
 
 ### Known Bugs
 * No known bugs, should spot any reach out to me on the developer contact provided.
