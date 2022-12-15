@@ -1,6 +1,7 @@
 {
   "parks": [
     {
+      "id": 1,
       "name": "Maasai-Mara",
       "location": "Narok, Kenya",
       "image": "https://cdn-images.go2africa.com/wp-content/uploads/2020/03/23131504/angama_mara_view_go2africa.jpg",
@@ -10,6 +11,7 @@
       "description": "The incomparable Masai Mara is one of the world's greatest wildlife destinations"
     },
     {
+      "id": 2,
       "name": "kran destination",
       "location": "Taita, Kenya",
       "image": "https://www.kranhotels.com/wp-content/uploads/2018/04/DSC_1001-HDR-1500x1000.jpg",
@@ -19,6 +21,7 @@
       "description": "The ideal relaxation haven. Our lounge is a destination hot-spot for both international guests and locals alike. Exuding classic charm and polished refinement to ensure guests can relax in total comfort. It is an intimate setting brimming with unique features, stylish furnishing and original artwork"
     },
     {
+      "id": 3,
       "name": "Lake Nakuru Lodge",
       "location": "Nakuru, Kenya",
       "image": "https://cdn.getyourguide.com/img/location/5a0861faa0da9.jpeg/99.jpg",
