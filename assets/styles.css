@@ -13,20 +13,23 @@ body{
   margin-bottom: 20px;
   padding: 5px 0px 5px 15px;
 }
-#park-names{
-  width: auto;
-  background-color: #3e8fde;
-  padding: 5px;
-  margin-bottom: 10px;
-  font-size: medium;
-  font-weight: 700;
-  color: white;
-}
 
 .park {
+  width: auto;
   background-color: #667618;
+  color: white; 
+  font-size: medium;
+  border-radius: 5px; 
+  margin-bottom: 15px;
   padding: 5px;
-  color: white;
+  text-align: center;
+}
+.park-name{
+  width: auto;
+  background-color: #667618;
+  padding: 5px;  
+  color: white; 
+  font-size: medium;
 }
 
 #location {
@@ -52,11 +55,6 @@ body{
   content: "";
 }
 
-.park {
-  font-size: 16px;
-  text-transform: uppercase;
-}
-
 
 #image, #image2{
   margin-bottom: 5px;
@@ -77,4 +75,19 @@ body{
   font-weight: bold;
   cursor: pointer;
   margin-right: 20px;
+}
+.extra{
+  display: flex;
+  flex-direction: row;
+}
+.footer{
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(102, 118, 24, 0.7);
+  text-align: center;
+}
+.footer p {
+  padding-top: 20px;
 }
