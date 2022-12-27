@@ -1,15 +1,18 @@
-<html>
-  <head>
-    <meta charset="UTF-8" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <title>Tour guide App</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"
     />
     <link rel="stylesheet" href="assets/styles.css" />
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  </head>
-  <body>
+</head>
+<body>
     <!-- navbar -->
     <div class="heading">
       <div class="item">
@@ -42,27 +45,26 @@
           src=""
           alt="[PARK PIC]"
         />
-
       </div>
 
       <!-- showing info -->
       <div class="four wide column">
         <div class="ui cards" id="showing">
           <div class="card">
-            <div id="name" class="park">[PARK NAME] <span id="film-idv" ></span></div>
+            <div id="name" class="park-name">[PARK NAME] <span id="film-idv" ></span></div>
             <div  id="location" class="meta"><span>[PARK LOCATION]</span></div>
             <div class="content">
               <div class="description">
+                <p style="color: black; font-size:medium; font-weight: 700;">About Park</p>
                 <div id="park-info">[DETAILS ON PARK GO HERE]</div>
                 <p id="features">[FEATURES]</p> 
                 <p id="amenities">[AMENITIES]</p>
                 <span id="entry-fee" class="ui label">[ENTRY FEE]</span>
-
               </div>
             </div>
             <div class="extra content">
               <button id="buy-ticket" class="buttons">
-                Book park entrance
+                Book visit
               </button>
               <button id="visited" class="buttons">
                 Already visited!
@@ -72,6 +74,10 @@
         </div>
       </div>
     </div>
+    <footer class="footer">
+      <p>Copyright  Aisha Jufe 2022</p>
+    </footer>
     <script src="src/index.js"></script>
-  </body>
+    
+</body>
 </html>
