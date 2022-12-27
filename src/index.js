@@ -59,7 +59,8 @@ function showPark (park) {
   parkFeatures.innerHTML = `<span style="color: black; font-size:medium; font-weight: 700;">Main Features</span> <br> ${park.features}`;
   parkAmenities.innerHTML = `<span style="color: black; font-size:medium; font-weight: 700;">Nearby Amenities</span><br> ${park.amenities}`
   image.src = park.image;
-  parkImage2.src = park.image2
+  parkImage2.src = park.image2;
+  bookPark.innerText = 'Book Visit';
 }
 
 // Event listener if one has visited park, to delete it from their view.
@@ -72,12 +73,12 @@ visitedPark.addEventListener("click", (e)=>{
 
 function parkReplace(){
   const nextParkId = currentPark.id + 1;
-  if (nextParkId > 13){
+  if (nextParkId < 12){
     fetch(`https://test-backend-production-30ff.up.railway.app/parks/${nextParkId}`)
     .then(r => r.json())
     .then(showPark)
   } else{
-    alert('You have visited All the top destinations!')
+    alert('You have Already visited All the top destinations!')
     starter();
   }
 }
